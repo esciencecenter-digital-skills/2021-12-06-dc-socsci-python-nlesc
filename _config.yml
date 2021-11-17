@@ -21,7 +21,7 @@
 # When setting this field to "pilot", please uncomment the
 # pilot_lesson_site line further down this file and
 # add the URL to the relevant lesson site.
-carpentry: "ds"
+carpentry: "dc"
 
 # This option is currently only required for
 # Data Carpentry, Software Carpentry, and Digital Skills workshops.
@@ -40,7 +40,7 @@ carpentry: "ds"
 # ds-dl-intro: for Digital Skills Introduction to Deep Learning
 # ds-gpu: for Digital Skills GPU Programming
 # ds-parallel: for Digital Skills Parallel Programming
-curriculum: "ds-parallel"
+curriculum: "dc-socsci"
 
 # If there is both an R and python official version of a curriculum
 # (as listed on https://software-carpentry.org/lessons/ and
@@ -48,6 +48,7 @@ curriculum: "ds-parallel"
 # value of the variable below ("flavor") to get the schedule and installation
 # instructions updated accordingly (valid values are 'r' or 'python').
 # Note: this is only for Data Carpentry and SWC at this time.
+flavor: "python"
 
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
