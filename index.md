@@ -464,20 +464,6 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-{% if info.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif info.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif info.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% elsif info.carpentry == "ds" %}
-{% remote_include {{lesson_meta}}/setup.md %}
-{% elsif info.carpentry == "pilot" %}
-Please check the "Setup" page of
-[the lesson site]({{ site.lesson_site }}) for instructions to follow
-to obtain the software and data you will need to follow the lesson.
-{% endif %}
-
 <h3>Data</h3>
  This workshop uses a tabular interview dataset from the [SAFI Teaching Database](https://figshare.com/articles/dataset/SAFI_Survey_Results/6262019) and teaches data cleaning, management, analysis and visualization. We use a single dataset throughout the workshop to model the data management and analysis workflow that a researcher would use.
 
@@ -498,3 +484,17 @@ donation, but you don’t need to make one. Your download should begin automatic
 
 {% include install_instructions/openrefine.html %}
 {% include install_instructions/python.html %}
+
+<p>To install the packages we’ll be using in the workshop, type the following in an Anaconda
+terminal:</p>
+  <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda <span class="nb">install</span> <span class="nt">-y</span> numpy pandas matplotlib jupyterlab seaborn
+</code></pre></div>  </div>
+
+<p>After installing Anaconda and the workshop packages,
+launch a Jupyter notebook by typing this command from the terminal:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter lab
+</code></pre></div></div>
+
+<p>The notebook should open automatically in your browser. If it does not or you
+wish to use a different browser, open this link: <a href="http://localhost:8888">http://localhost:8888</a>.</p>

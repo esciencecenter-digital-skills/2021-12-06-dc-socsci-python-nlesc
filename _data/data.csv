@@ -1,2 +1,2 @@
 venue,address,country,latitude,longitude,humandate,humantime,startdate,enddate,instructor,helper,carpentry,curriculum,title,slug,flavor,eventbrite
-Netherlands eScience Center,online,NA,NA,NA,"December 06 - 09, 2021",9:00 - 13:00 CET,2021-12-06T00:00:00Z,2021-12-09T00:00:00Z,"Leon Oostrum, Francesco Nattino, Sven van der Burg",Ou Ku,dc,dc-socsci,Data Carpentry for Social Sciences with Python,2021-12-06-dc-socsci-python-nlesc,python,NA
+Netherlands eScience Center,online,NA,NA,NA,"December 06 - 09, 2021",9:00 - 13:00 CET,2021-12-06T00:00:00Z,2021-12-09T00:00:00Z,"Leon Oostrum, Francesco Nattino, Sven van der Burg",Ou Ku,dc,dc-socsci,Data Carpentry with Python,2021-12-06-dc-socsci-python-nlesc,python,NA
