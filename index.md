@@ -477,3 +477,23 @@ Please check the "Setup" page of
 [the lesson site]({{ site.lesson_site }}) for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+
+<h3>Data</h3>
+ This workshop uses a tabular interview dataset from the [SAFI Teaching Database](https://figshare.com/articles/dataset/SAFI_Survey_Results/6262019) and teaches data cleaning, management, analysis and visualization. We use a single dataset throughout the workshop to model the data management and analysis workflow that a researcher would use.
+
+Clicking the [this link](https://figshare.com/ndownloader/articles/6262019/versions/4) will automatically download all of the files to your default download directory as a single compressed
+(`.zip`) file. To expand this file, double click the folder icon in your file navigator application (for Macs, this is the Finder
+application).
+
+<h3>Spreadsheet program</h3>
+
+* To interact with spreadsheets, we can use LibreOffice, Microsoft Excel, Gnumeric, OpenOffice.org, or other programs. 
+Commands may differ a bit between programs, but the general ideas for thinking about spreadsheets are the same. For this workshop, 
+we recommend using either Microsoft Excel (paid software) or LibreOffice (free and open source). Other spreadsheet programs may
+not have all of the features we will be exploring in this workshop.
+
+* To install LibreOffice, go to their [download page](https://www.libreoffice.org/download/download/). The website should
+automatically select the correct option for your operating system. Click the "Download" button. You will go to a page that asks about a
+donation, but you don’t need to make one. Your download should begin automatically. Once the installer is downloaded, double click on it (you may need to open your Downloads folder) and LibreOffice should install.
+
+{% include install_instructions/python.html %}
