@@ -398,10 +398,10 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-{% if info.carpentry == "ds" %}
 <h2 id="syllabus">Syllabus</h2>
-{% remote_include {{lesson_meta}}/syllabus.md %}
-{% endif %}
+{% remote_include
+https://raw.githubusercontent.com/esciencecenter-digital-skills/workshop-metadata/main/dc-socsci-python/syllabus.md
+%}
 
 <h2 id="schedule">Schedule</h2>
 
@@ -496,4 +496,5 @@ not have all of the features we will be exploring in this workshop.
 automatically select the correct option for your operating system. Click the "Download" button. You will go to a page that asks about a
 donation, but you don’t need to make one. Your download should begin automatically. Once the installer is downloaded, double click on it (you may need to open your Downloads folder) and LibreOffice should install.
 
+{% include install_instructions/openrefine.html %}
 {% include install_instructions/python.html %}
